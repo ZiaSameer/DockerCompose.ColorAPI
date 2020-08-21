@@ -30,6 +30,7 @@ namespace ColorAPI.Models
                      new Color(){ColorName="Orange"},
                      new Color(){ColorName="Yellow"}
                  );
+                 context.SaveChanges();
             }
             else
             {
